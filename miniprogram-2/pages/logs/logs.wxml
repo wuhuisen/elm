@@ -1,0 +1,56 @@
+<!--logs.wxml-->
+<view class="container">
+<view >
+  项目页
+</view>
+<view class="logs1">
+  <image src="https://dh1.cmcmcdn.com/c/d/f/9/cdf90b2792c377004417cddb6cb45905.jpg@base@tag=imgScale&w=182&h=104&m=0&c=1&q=85&F=webp"></image>
+  <view>
+  日记版
+  <view>
+   详情
+  </view>
+  </view>
+
+</view>
+<view class="logs1">
+  <image src="https://dh1.cmcmcdn.com/2/2/8/7/22878d9c0f1933d7c9a34817c614c117.jpg@base@tag=imgScale&w=182&h=104&m=0&c=1&q=85&F=webp"></image>
+  <view>
+  日记版
+  <view>
+   详情
+  </view>
+  </view>
+
+</view>
+<view id="biao">
+<navigator url="../index/index">
+<text class="iconfont icon-songshuqiaokeli" style="font-size:50px;color:red"></text>
+闲打
+</navigator>
+<navigator url="../hoem/hoem">
+<text class="iconfont icon-caomei" style="font-size:50px;color:#23A8F2">
+
+</text>
+<view>
+首页
+</view>
+</navigator>
+<navigator url="../hoem/hoem">
+<text class="iconfont icon-niuya" style="font-size:50px;color:#D2B087" >
+
+</text>
+<view>
+项目
+</view>
+</navigator>
+<navigator url="../logs/logs">
+<text class="iconfont icon-rousong" style="font-size:50px;color:#154168"></text>
+<view>
+联系
+</view>
+</navigator>
+
+</view>
+</view>
+

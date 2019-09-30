@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hoem/hoem"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#A9E3F1",
+    "backgroundColor":"#A9E3F1",
+    "navigationBarTitleText": "森屿阁",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

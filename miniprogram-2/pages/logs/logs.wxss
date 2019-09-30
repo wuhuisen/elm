@@ -1,0 +1,15 @@
+.logs1{
+    width: 99%;
+    height: 400rpx;
+    border: 1px solid;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+.logs1>image{
+  width: 100%;
+  height: 300rpx;
+}
+.logs1>view>view{
+  font-size: 20rpx;
+
+}

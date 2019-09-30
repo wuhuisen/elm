@@ -1,0 +1,46 @@
+<!--pages/hoem/hoem.wxml-->
+<view class="container">
+<view>首页</view>
+<view>姓名：吴会森</view>
+<view>
+手机号：15538459878
+<button type="default" bindtap="calling">拨打电话</button>
+<view>邮箱：{{contents}} </view>
+<button bindtap='copyText' data-text="{{contents}}">复制</button>
+</view>
+<view class="userinfo">
+   <button open-type="share">分享好友</button>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+<view id="biao">
+<navigator url="../index/index">
+<text class="iconfont icon-songshuqiaokeli" style="font-size:50px;color:red"></text>
+闲打
+</navigator>
+<navigator url="../hoem/hoem">
+<text class="iconfont icon-caomei" style="font-size:50px;color:#23A8F2">
+
+</text>
+<view>
+首页
+</view>
+</navigator>
+<navigator url="../logs/logs">
+<text class="iconfont icon-niuya" style="font-size:50px;color:#D2B087" >
+
+</text>
+<view>
+项目
+</view>
+</navigator>
+<navigator url="../logs/logs">
+<text class="iconfont icon-rousong" style="font-size:50px;color:#154168"></text>
+<view>
+联系
+</view>
+</navigator>
+
+</view>
+</view>
